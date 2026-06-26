@@ -8,7 +8,7 @@ export default function TextoTop() {
       color: 'white',
       marginBottom: 25
     }}>
-      toma esse componente
+      RDLautomoveis
     </Text>
   );
 }

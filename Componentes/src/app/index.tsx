@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#121212',
-    fontWeight: 'bold',
   },
 });
 
