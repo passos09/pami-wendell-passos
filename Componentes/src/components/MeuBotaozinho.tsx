@@ -5,7 +5,13 @@ const MeuBotaozinho = ({ etiqueta, corFundo, funcao }) => {
     const botaoStyle = {
     backgroundColor: corFundo,
     padding: 10,
-    borderRadius: 5,
+    borderRadius: 12,
+    paddingVertical: 12,
+    paddingHorizontal: 20,
+    marginTop: 10,
+    
+
+
   };
 
   return (

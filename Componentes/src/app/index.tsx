@@ -1,23 +1,29 @@
 import MeuBotaozinho from '../components/MeuBotaozinho';
+import TextoTop from '../components/TextoTop';
+import MinhaImagem from '../components/Minhaimagem';
+import LigaDesliga from '../components/LigaDesliga';
 import { View, StyleSheet, Text } from 'react-native';
-import Minhaimg from '../components/Minhaimg';
 const App = () => {
 
   const teste = () => {
-    console.log('Gosto de codar');
+    console.log('sem saldo');
   };
   
-  const testeii = () => {
-    console.log('Entenderam?')
+  const teste2 = () => {
+    console.log('infelizmente ficar olhando')
+  };
+  const teste3 = () => {
+    console.log('Não tem modelos parecidos, esse é unico fih')
   };
 
   return (
     <View style={styles.container}>
-      <MeuBotaozinho etiqueta="Botão UM" corFundo="green" funcao={teste} />
-      <MeuBotaozinho etiqueta="Clique pra Pegar Virus" corFundo="red" funcao={teste} />
-      <MeuBotaozinho etiqueta="Pedrinho I love you" corFundo="pink" funcao={testeii} />
-      <Minhaimg />
-
+      <TextoTop />
+      <MinhaImagem />
+      <LigaDesliga />
+      <MeuBotaozinho etiqueta="comprar" corFundo="white" funcao={teste} />
+      <MeuBotaozinho etiqueta="visualizar" corFundo="white" funcao={teste2} />
+      <MeuBotaozinho etiqueta="ver modelos semelhantes" corFundo="white" funcao={teste3} />
     </View>
   );
 };
@@ -27,6 +33,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#121212',
+    fontWeight: 'bold',
   },
 });
 
